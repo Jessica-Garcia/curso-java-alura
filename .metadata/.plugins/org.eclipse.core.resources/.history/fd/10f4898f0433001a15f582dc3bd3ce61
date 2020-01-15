@@ -1,0 +1,16 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "Alura";
+		//System.out.println(nome.replace("A", "a"));
+		//System.out.println(nome.toUpperCase());
+		
+		String outro = nome.replace("A", "a");
+		
+		System.out.println(outro);
+	}
+
+}

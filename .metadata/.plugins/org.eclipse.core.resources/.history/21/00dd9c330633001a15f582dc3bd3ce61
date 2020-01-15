@@ -1,0 +1,24 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "Alura";
+		// assim também  funciona:
+		//System.out.println(nome.replace("A", "a"));
+		//System.out.println(nome.toUpperCase());
+		
+		// mas melhor fazer assim:
+		
+		String outro = nome.replace("A", "a");
+		String outro2 = nome.toLowerCase();
+		String outro3 = nome.toUpperCase();
+		
+		System.out.println(nome);
+		System.out.println(outro);
+		System.out.println(outro2);
+		System.out.println(outro3);
+	}
+
+}
