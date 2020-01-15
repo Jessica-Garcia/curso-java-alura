@@ -1,0 +1,62 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "Alura";
+		// assim também  funciona:
+		//System.out.println(nome.replace("A", "a"));
+		//System.out.println(nome.toUpperCase());
+		
+		// mas melhor fazer assim:
+		
+		String outro = nome.replace('A', 'a');
+		String outro2 = nome.toLowerCase();
+		String outro3 = nome.toUpperCase();
+		
+		System.out.println(nome);
+		System.out.println(outro);
+		System.out.println(outro2);
+		System.out.println(outro3);
+		
+		//para saber a letra que está em determinada posição da String
+		
+		char c = nome.charAt(2);
+		System.out.println(c);
+		
+		// posição de determinada substring dentro da string
+		int pos = nome.indexOf("ur");
+		System.out.println(pos);
+		
+		// para devolver uma subtring baseado em um string a partir de 
+		//determinada posição:
+		
+		String sub = nome.substring(1); // vai imprimir da posição 1 em diante
+		
+		System.out.println(sub);
+		
+		//para saber o numero de caracteres de um string:
+		System.out.println(nome.length());
+		
+		//para imprimir caractere por caractere um embaixo do outro:
+		for (int i = 0; i< nome.length(); i++) {
+			System.out.println(nome.charAt(i));
+		}
+		
+		// para saber se o string está vazio, devolve um boolean:
+		
+		String vazio = " ";
+		System.out.println(vazio.isEmpty());
+		
+		// para tirar os espaços do inicio e fim de um String:
+		String outroVazio = vazio.trim();
+		
+		System.out.println(outroVazio.isEmpty());
+		
+		//para saber se uma String possui uma String ou subtring
+		
+		System.out.println(nome.contains("Alu"));
+	}
+
+}

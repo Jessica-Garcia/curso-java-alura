@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;name&apos; in &apos;application.Program.main(...)&apos; to &apos;funcionarioCsv&apos;&#x0D;&#x0A;- Original project: &apos;udemy-14-interface-4-comparable&apos;&#x0D;&#x0A;- Original element: &apos;application.Program.main(String[]).name&apos;&#x0D;&#x0A;- Renamed element: &apos;name&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;name&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;application{Program.java[Program~main~\[QString;@name!565!592!572!575!QString;!0!false" name="funcionarioCsv" references="true" stamp="1578172420895" version="1.0"/>
+</session>
